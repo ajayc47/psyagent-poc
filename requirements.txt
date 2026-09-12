@@ -1,0 +1,5 @@
+langgraph==1.2.11
+langchain-core==1.6.3
+pyautogen==0.10.0
+autogen-agentchat==0.7.5
+autogen-core==0.7.5
