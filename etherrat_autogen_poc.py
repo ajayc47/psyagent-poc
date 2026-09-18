@@ -1,5 +1,5 @@
 """
-EtherRAT structural PoC against AutoGen (autogen-agentchat 0.7.5 / autogen-core 0.7.5,
+PsyAgent structural PoC against AutoGen (autogen-agentchat 0.7.5 / autogen-core 0.7.5,
 the AG2/Microsoft AutoGen v0.4+ lineage).
 
 Same methodology note as the LangGraph PoC: no LLM API key is available in this
@@ -227,7 +227,7 @@ async def run_stage_4(shared_memory: ListMemory):
 
 async def main():
     print("=" * 72)
-    print("EtherRAT structural PoC vs AutoGen (autogen-agentchat 0.7.5)")
+    print("PsyAgent structural PoC vs AutoGen (autogen-agentchat 0.7.5)")
     print("=" * 72)
 
     shared_memory = await run_stage_1_2_3()
