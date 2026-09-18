@@ -1,6 +1,6 @@
-# EtherRAT: Structural PoC Against LangGraph and AutoGen
+# PsyAgent: Structural PoC Against LangGraph and AutoGen
 
-EtherRAT is a four-stage attack chain, one classical social-engineering primitive per stage, that targets four common weak points in an agentic AI pipeline: context/retrieval, tool-call arguments, persistent memory, and cross-session identity delegation. It comes out of the manipulation-primitive framework in "AI Security From PsyOps to CyberOps" (SecuredAI.org).
+PsyAgent is a four-stage attack chain, one classical social-engineering primitive per stage, that targets four common weak points in an agentic AI pipeline: context/retrieval, tool-call arguments, persistent memory, and cross-session identity delegation. It comes out of the manipulation-primitive framework in "AI Security From PsyOps to CyberOps" (SecuredAI.org).
 
 This repo contains two independent implementations of the chain, one against [LangGraph](https://github.com/langchain-ai/langgraph), one against [AutoGen](https://github.com/microsoft/autogen) (the autogen-agentchat/autogen-core lineage), plus the raw output from running both.
 
