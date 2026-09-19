@@ -1,5 +1,5 @@
 """
-EtherRAT structural PoC against LangGraph.
+PsyAgent structural PoC against LangGraph.
 
 IMPORTANT METHODOLOGY NOTE (read before treating any output as a finding):
 This sandbox has no LLM API key available, so there is no live model in this
